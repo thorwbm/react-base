@@ -12,7 +12,7 @@ interface LogoProps {
 
 export default function Logo(props: LogoProps) {
     return (
-        <Link href="/" className="cursor-pointer">
+        <Link href="/" className="cursor-pointer w-max[20%]">
             <Flex col={props.col} centerCross className={props.className}>
                 <div
                     className={`
@@ -36,9 +36,11 @@ export default function Logo(props: LogoProps) {
                                        'bg-gradient-to-r from-blue-400 to-cyan-100 bg-clip-text text-transparent ' : 
                                        ''}
                             `}>
-                                SISTEMA FELUMA
+                                FELUMA
                             </span> 
-                            <span className="text-sm text-cyan-300 drop-shadow-2xl shadow-blue-900">Qualidade</span> 
+                            <span className="text-sm text-cyan-300 drop-shadow-2xl shadow-blue-900">
+                                SISTEMA OSCE
+                            </span> 
                         </div>
                         
 

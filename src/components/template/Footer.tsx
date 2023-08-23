@@ -10,12 +10,12 @@ export default function Footer(props: FooterProps){
             flex justify-between items-center
             h-16 text-am px-10
             py-5
-            bg-gradient-to-b from-zinc-900 to-black
+            bg-gradient-to-t from-zinc-600  dark:from-black to-zinc-500 dark:to-zinc-900
             ${props.className ?? ''}
 
         `}>
-            <span>{props.leftText}</span>
-            <span>{props.rightText}</span>
+            <span className="text-sm text-zinc-200 dark:text-zinc-400">{props.leftText}</span>
+            <span className="text-sm text-zinc-200 dark:text-zinc-400">{props.rightText}</span>
         </div>
     )
 }

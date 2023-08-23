@@ -24,11 +24,11 @@ export default function UserInfo(props: UserInfoProps){
                 }}
 
             />
-            <div className={`flex flex-col`}>
-                <span className={`text-sm max-w-[250px]`}>{props.nome}</span>
+            <div className={`flex flex-col f-1`}>
+                <span className={`text-sm max-w-[200px]`}>{props.nome}</span>
                 <span className={`text-xs `}>{props.email}</span>
             </div>
-            <IconDotsVertical />
+            <IconDotsVertical className=""/>
         </div>
     )
 }

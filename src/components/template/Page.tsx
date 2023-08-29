@@ -37,10 +37,7 @@ export default function Page(props: PageProps) {
             ${props.className ?? ''}
         `}>
             <aside  className={`flex flex-col          
-                                bg-gradient-to-b
-                                from-zinc-500 dark:from-zinc-800
-                                via-zinc-100 dark:via-zinc-500
-                                to-zinc-500 dark:to-zinc-800
+                                bg-zinc-100 dark:bg-zinc-400
                               `}>
                 <Logo className="flex justify-center pt-2 pb-2" gradiente/>
                 <hr className="mx-2 border-zinc-500"/>

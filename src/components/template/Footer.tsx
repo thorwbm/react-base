@@ -10,7 +10,9 @@ export default function Footer(props: FooterProps){
             flex justify-between items-center
             h-16 text-am px-10
             py-5
-            bg-gradient-to-t from-zinc-600  dark:from-black to-zinc-500 dark:to-zinc-900
+            bg-gradient-to-t
+             from-zinc-600 dark:from-zinc-800
+             to-zinc-200   dark:to-zinc-500
             ${props.className ?? ''}
 
         `}>
